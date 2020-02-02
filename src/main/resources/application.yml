@@ -1,0 +1,28 @@
+server:
+  servlet:
+    context-path: /
+  port: 8091
+
+
+spring:
+  data:
+    mongodb:
+      database: lbs
+      #username:
+      #password:
+      host: 49.235.151.230
+      port: 27017
+
+
+#hadoop:
+#  name-node: hdfs://10.10.1.142:9000
+#  namespace: /nias
+
+
+#swagger配置http://localhost:8091/swagger-ui.html#/
+lb:
+  swagger:
+    title: 实训-客户端-接口文档
+    contactName: 李磊，刘平
+    contactEmail: 736421789@qq.com
+    basePackage: com.hadoop.shixun.controller.web
